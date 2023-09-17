@@ -18,7 +18,7 @@ public class SaveupApplication {
 	}
 	@Autowired
 	private DataSource dataSource;
-
+/*
 	@PostConstruct
 	public void createDatabaseIfNotExist() throws SQLException {
 		try (Connection conn = dataSource.getConnection()) {
@@ -40,4 +40,6 @@ public class SaveupApplication {
 			}
 		}
 	}
+	*/
+
 }
